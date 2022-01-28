@@ -1,4 +1,5 @@
-* {box-sizing: border-box;
+* {
+  box-sizing: border-box;
   padding: 0px;
   margin: 0px;
 
@@ -11,7 +12,7 @@
 
 .container {
   background-image: url(./Images/herocover3.png);
-  background-size: cover; 
+  background-size: cover;
   background-color: black;
   opacity: ;
 }
@@ -46,7 +47,7 @@ li {
   justify-content: center;
   background-color: gb(204, 197, 197);
   margin-top: 280px;
-  height:500px;
+  height: 500px;
 
 }
 
@@ -57,12 +58,12 @@ li {
   text-align: center;
   margin-top: 0px;
   width: 900px;
-  height:500px;
-  
+  height: 500px;
+
 }
 
-.Ensure h1{
-  font-size:70px;
+.Ensure h1 {
+  font-size: 70px;
 }
 
 .Ensure p {
@@ -70,17 +71,16 @@ li {
 
 
 }
+/* PEACE OF MIND 1 */
+
 .box {
   height: 200px;
   background-color: rgb(139, 45, 45);
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  padding:10px;
+  padding: 10px;
 
-
-  
-  
 }
 
 .box1 {
@@ -88,9 +88,9 @@ li {
   background-color: #ffff;
   text-align: center;
   border-style: outset 2px;
-  margin-bottom:200px;
+  margin-bottom: 200px;
   margin-left: 250px;
-  
+
 }
 
 .box2 {
@@ -98,8 +98,8 @@ li {
   background-color: #ffff;
   text-align: center;
   border-style: outset 2px black;
-  margin-bottom:200px;
-  
+  margin-bottom: 200px;
+
 }
 
 .box3 {
@@ -107,36 +107,68 @@ li {
   background-color: lightskyblue;
   text-align: center;
   border-style: outset 2px;
-  margin-bottom:200px;
-  margin-left: 250px;
+  margin-bottom: 200px;
+  margin-right: 250px;
 }
+
+/*  PEACE OF MIND 2*/
 
 .pom {
-  background-color: rgb(199, 115, 115);
+  background-color: gb(199, 115, 115);
   height: 300px;
   display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 
 }
 
-.pom1{
+.pom1 {
   height: 200px;
   background-color: rgb(8, 30, 44);
   text-align: center;
-  border-style: outset 2px;
-  margin-bottom:200px;
-  margin-right: 250px;
-
+  
+  margin-left: 250px;
 }
-.pom2{
+  
+
+
+
+.pom2 {
   height: 200px;
   background-color: rgb(197, 59, 89);
   text-align: center;
-  border-style: outset 2px;
+  
+  
 }
 
-.pom3{
+
+.pom3 {
   height: 200px;
   background-color: lightskyblue;
   text-align: center;
-  border-style: outset 2px;
+  margin-right: 250px;
+}
+  
+/* PROFILE CARDS */
+
+.panam{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: lightslategrey;
+}
+
+
+.industry {
+  background-color: lightslategrey;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+}
+
+.profile1{
+  background-color: lime;
+
 }
