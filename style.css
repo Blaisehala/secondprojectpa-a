@@ -1,4 +1,39 @@
-
-body{
-  background-image: url(/Images/#hero-cover.3.png);
+body {
+  background-image: url("./Images/#hero-cover.3.png");
 }
+
+
+
+.brand {
+  margin: 15px;
+  float: left;
+}
+
+ul {
+  text-align: center;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  text-decoration: none;
+  margin: 15px;
+}
+
+.En {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(204, 197, 197);
+  margin-top: 100px;
+
+}
+
+
+.Ensure{
+  background-color: rgb(158, 97, 97); 
+
+  height: 600px;
+  color: #ffff;
+}
+
