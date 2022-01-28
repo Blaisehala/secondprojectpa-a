@@ -1,5 +1,5 @@
 body {
-  background-image: url("./Images/#hero-cover.3.png");
+  background-image: url(./Images/#hero-cover.3.png);
 }
 
 
@@ -20,6 +20,11 @@ li {
   margin: 15px;
 }
 
+.container{
+  background-color: burlywood;
+  height: 1000px;
+}
+
 .En {
   display: flex;
   align-items: center;
@@ -35,5 +40,34 @@ li {
 
   height: 600px;
   color: #ffff;
+  text-align: center;
 }
 
+.box{
+  height: 400px;
+  background-color: cornsilk;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(204, 197, 197);
+}
+
+.box1{
+  height: 200px;
+  background-color: #ffff;
+  text-align: center;
+  border-style: outset 2px;}
+
+  .box2{
+    height: 200px;
+  background-color: #ffff;
+  text-align: center;
+  border-style: outset 2px black;
+  }
+
+  .box3{
+  height: 200px;
+  background-color:powderblue;
+  text-align: center;
+  border-style: outset 2px;
+  }
