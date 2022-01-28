@@ -182,7 +182,7 @@ li {
   height: 300px;
   background-color: lightskyblue;
   text-align: center;
-  
+
 }
 
 .profile3 {
@@ -193,28 +193,59 @@ li {
   margin-right: 250px;
 }
 
-.trac{
-  background-color:lightslategrey;
-  display: flex;
-  justify-content: space-evenly;
-}
 
-#glen{
+/* hool */
+
+#glen {
   background-color: magenta;
   display: inline;
   width: 1000px;
 }
 
 
-.subscribe{
-  background-color: mediumblue;
+.pricing {
+  background-color: yellow;
+  height: 300px;
+}
+
+
+.aws {
   display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: yellow;
 }
 
-#pld{
-  background-color: mediumvioletred;
+.pricing {
+  background-color: lightslategrey;
+  height: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+
 }
 
-#BIG{
-  background-color: navy;
+.pricecard1 {
+  background-color: lime;
+  text-align: center;
+  margin-left: 250px;
+  height: 400px;
+  border-style: outset  powderblue;
+  border-radius: 6px;
+
+}
+
+.pricecard2 {
+  height: 500px;
+  background-color: lightskyblue;
+  text-align: center;
+
+}
+
+.pricecard3 {
+  height: 400px;
+  background-color: rgb(167, 196, 174);
+  text-align: center;
+  margin-right: 250px;
 }
