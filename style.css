@@ -194,7 +194,27 @@ li {
 }
 
 .trac{
+  background-color:lightslategrey;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#glen{
   background-color: magenta;
+  display: inline;
+  width: 1000px;
 }
 
 
+.subscribe{
+  background-color: mediumblue;
+  display: flex;
+}
+
+#pld{
+  background-color: mediumvioletred;
+}
+
+#BIG{
+  background-color: navy;
+}
