@@ -5,6 +5,9 @@
 
 }
 
+body{
+  font-family:Montserrat  ;
+}
 
 /* @media only screen (max: 400px){ */
 
@@ -68,65 +71,63 @@ li {
 
 .Ensure p {
   font-size: 25px;
-
-
-}
-
-/* PEACE OF MIND 1 */
-
-/* .icc{ */
-  /* padding:20px; */
-  /* text-align: left; */
-}
-
-/* .icc1{ */
-   /* padding: 20px;  */
-  /* text-align: left; */
-  /* background-color: rb(169, 218, 55); */
-}
-/* .icc2{ */
-  /* padding: 20px;  */
-  /* text-align: left */
-
 }
 
 .box {
-  height: 500px;
-background-color: rgba(240, 142, 14, 0.973);
-display: flex;
-align-items: center;
-justify-content: space-e
-
-
-
+  height: 300px;
+  background-color: #252B42
+  ;
 }
 
-.box1 {
-  height: 200px;
-  background-color: rgb(194, 136, 136);
-  border-style: outset 2px;
-  margin-bottom: 200px;
-  margin-left: 250px;
 
+.box1 {
+  background-color: #ffff;
+  width: 350px;
+  height: 250px;
+  position: relative;
+  left: 420px;
+  bottom: 100px;
 }
 
 .box2 {
-  height: 200px;
-  background-color: rgb(34, 11, 11);
-  text-align: center;
-  border-style: outset 2px black;
-  margin-bottom: 200px;
-
+  background-color:#ffff;
+  width: 350px;
+  height: 250px;
+  position: relative;
+  left: 800px;
+  bottom: 350px;
+  z-index: ;
 }
 
 .box3 {
-  height: 200px;
-  background-color: lightskyblue;
-  text-align: center;
-  border-style: outset 2px;
-  margin-bottom: 200px;
-  margin-right: 250px;
+  background-color: #23A6F0;
+  width: 350px;
+  height: 250px;
+  position: relative;
+  left: 1200px;
+  bottom: 600px;
 }
+
+.icc{
+  padding-left: px;
+}
+
+.she{
+  font-size: 25px;
+  padding-left: 50px;
+
+}
+
+
+
+.he{
+  font-size: 15px;
+  padding-left:0px;
+
+}
+
+
+
 
 /*  PEACE OF MIND 2*/
 
@@ -183,7 +184,8 @@ justify-content: space-e
   text-align: center;
   background-color: whitesmoke;
 }
-.panam p{
+
+.panam p {
   font-size: 15px;
 }
 
@@ -197,7 +199,8 @@ justify-content: space-e
 
 }
 
-.profile1 p{margin-top: 20px;
+.profile1 p {
+  margin-top: 20px;
 
 }
 
@@ -212,7 +215,8 @@ justify-content: space-e
 
 
 
-.profile2 p{margin-top: 20px;
+.profile2 p {
+  margin-top: 20px;
 
 }
 
@@ -228,8 +232,8 @@ justify-content: space-e
 }
 
 
-
-.profile3 p{margin-top: 20px;
+.profile3 p {
+  margin-top: 20px;
 
 }
 
@@ -238,30 +242,35 @@ justify-content: space-e
 
 /* hool */
 
-#glen {
-  background-color: magenta;
+.trac {
   display: inline;
-  width: 1000px;
+  height: 350px;
+  width: 250px;
+  background-color: thistle;
 }
 
 
 
+
+/* PRICING */
 .aws {
   display: flex;
   justify-content: center;
   text-align: center;
   background-color: whitesmoke;
- 
+
 }
 
-#june{
+#june {
   font-size: 50px;
 }
 
-.aws p{
+.aws p {
   font-size: 15px;
 
 }
+
+
 
 .pricing {
   background-color: whitesmoke;
@@ -282,20 +291,20 @@ justify-content: space-e
   margin-bottom: 100px;
   border-style: groove;
   border-color: lightskyblue;
-  
-  
+
+
 
 }
 
 .pricecard2 {
   height: 700px;
-  background-color: rgb(6, 6, 20);
+  background-color: #252B42;
   text-align: center;
   border-radius: 6px;
   margin-bottom: 200px;
   border-style: groove;
   border-color: lightskyblue;
-  
+
 
 }
 
@@ -307,11 +316,11 @@ justify-content: space-e
   margin-bottom: 100px;
   border-style: groove;
   border-color: lightskyblue;
-  
+
 }
 
 
-.black{
-  background-color: rgb(6, 6, 20);
+.black {
+  background-color: #252B42;
   height: 700px;
 }
