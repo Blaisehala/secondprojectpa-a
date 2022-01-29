@@ -78,7 +78,7 @@ ul {
 
 .box {
   height: 300px;
-  background-color: #252B42
+  background-color: whitesmoke
   ;
 }
 
@@ -134,41 +134,45 @@ ul {
 
 /*  PEACE OF MIND 2*/
 
-.pom {
-  background-color: gb(199, 115, 115);
-  height: 300px;
+.pom{
+  background-color: white;
   display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-
+  justify-content: space-around;
+  height: 300px;
 }
 
 .pom1 {
   height: 200px;
   background-color: white;
   text-align: center;
-
+  
   margin-left: 250px;
-}
-
-
-
-
-.pom2 {
+  }
+  
+  
+  
+  .pom2 {
   height: 200px;
   background-color: white;
   text-align: center;
-
-
-}
-
-
-.pom3 {
+  
+  }
+  
+  .pom3 {
   height: 200px;
   background-color: white;
   text-align: center;
   margin-right: 250px;
-}
+  }
+  
+
+
+
+
+
+
+
+
 
 /* PROFILE CARDS */
 .industry {
@@ -376,8 +380,15 @@ photo: spacing 70px;
 #cb{
   color: white;
   padding: 20px;
-  color: gray;
   font-weight: bolder;
+
+}
+
+#cc{
+  color: white;
+  padding: 20px;
+  margin: 20px;
+  line-height: 3em;
 
 }
 
@@ -390,6 +401,22 @@ photo: spacing 70px;
   background-color: #252B42;
   height: 700px;
   
+}
+
+.black img{
+  float: right;
+  position:relative;
+  right:300px;
+  
+
+}
+#moon{
+  color: white;
+  background-color:
+  width: 500px;
+  position:relative;
+  left: 250px;
+  top:100px;
 }
 
 
