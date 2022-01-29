@@ -502,3 +502,15 @@ label{
   
 
 }
+
+footer{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  line-height: 40px;
+  
+}
+
+footer li{
+  list-style: none;
+}
