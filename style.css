@@ -6,7 +6,8 @@
 }
 
 body{
-  font-family:Montserrat  ;
+  font-family: 'Lobster', cursive;
+font-family: 'Montserrat', sans-serif;
   display: flex;
   flex-direction: column;
 }
@@ -31,10 +32,10 @@ body{
 }
 
 ul {
-  text-align: center;
+  /* text-align: center; */
 }
 
-li {
+/* li { */
   list-style: none;
   display: inline-block;
   text-decoration: none;
@@ -240,15 +241,11 @@ li {
 }
 
 
-
-
 /* hool */
 
 .trac {
-  display: inline;
-  height: 350px;
-  width: 250px;
-  background-color: thistle;
+photo: spacing 70px;
+
 }
 
 
@@ -285,12 +282,13 @@ li {
 }
 
 .pricecard1 {
+  height: 650ppx;
   background-color: ;
   text-align: center;
-  margin-left: 250px;
+  margin-left: 450px;
   height: 600px;
   border-radius: 6px;
-  margin-bottom: 100px;
+  margin-bottom: 85px;
   border-style: groove;
   border-color: lightskyblue;
 
@@ -299,27 +297,91 @@ li {
 }
 
 .pricecard2 {
-  height: 700px;
+  height: 650px;
   background-color: #252B42;
   text-align: center;
   border-radius: 6px;
-  margin-bottom: 200px;
+  margin-bottom: 120px;
   border-style: groove;
   border-color: lightskyblue;
+  border-radius: 4px;
+  
 
 
 }
 
 .pricecard3 {
-  height: 600px;
+  height: 620px;
   text-align: center;
   border-radius: 6px;
-  margin-right: 250px;
+  margin-right: 400px;
   margin-bottom: 100px;
   border-style: groove;
   border-color: lightskyblue;
 
 }
+
+#c1{
+  background-color:;
+  padding:20px;
+  font-size:2em;
+  font-weight: bold;
+
+}
+
+#c2{
+  background-color: y;
+  padding: 20px;
+  color: gray;
+  font-weight: bolder;
+
+}
+
+#c3{
+  background-color: ;
+  padding: 20px;
+  color: #23A6F0;
+  font-weight: bolder;
+  font-size: 1.5em;
+}
+
+#c4{
+  padding: 20px;
+  margin: 20px;
+  line-height: 3em;
+
+}
+
+#btn2{
+  background-color: #23A6F0;
+  color: white;
+  width: 60%;
+  height: 50px;
+  font-size: 1em;
+  font-weight: 900;
+  border-style: none;
+  border-radius: 4px;
+  
+}
+
+
+#ca{
+  color: white;
+  padding:20px;
+  font-size:2em;
+  font-weight: bold;
+
+}
+
+#cb{
+  color: white;
+  padding: 20px;
+  color: gray;
+  font-weight: bolder;
+
+}
+
+
 
 
 /* WORLDMAP */
@@ -338,7 +400,7 @@ li {
 
 /* CONTACT */
 .tear {
-  background-color: turquoise;
+  background-color:whitesmoke;
   height: 600px;
 }
 
@@ -347,7 +409,7 @@ li {
   
 }
 .tear2{
-  background-color: tomato;
+  background-color: white;
   height: 600px;
   width: 800px;
   position: relative;
@@ -356,7 +418,7 @@ li {
 }
 
 #respect{
-  background-color: wheat;
+  background-color: what;
   height: 600px;
   width: 500px;
   position: relative;
@@ -373,16 +435,19 @@ li {
 
 form{
   padding-left: 30px;
-  padding-top: 30px;
+  padding-top: 40px;
 }
 
 input {
+  background-color: whitesmoke;
   display: inline-block;
   width: 80%;
   padding-top: 10px;
   padding-bottom:20px;
   margin: 8px 0;
   box-shadow: border box;
+  border: 2px;
+  border-radius: 4px;
 
   
 }
