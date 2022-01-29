@@ -74,20 +74,36 @@ li {
 
 /* PEACE OF MIND 1 */
 
+/* .icc{ */
+  /* padding:20px; */
+  /* text-align: left; */
+}
+
+/* .icc1{ */
+   /* padding: 20px;  */
+  /* text-align: left; */
+  /* background-color: rb(169, 218, 55); */
+}
+/* .icc2{ */
+  /* padding: 20px;  */
+  /* text-align: left */
+
+}
+
 .box {
-  height: 200px;
-  background-color: rgb(139, 45, 45);
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  padding: 10px;
+  height: 500px;
+background-color: rgba(240, 142, 14, 0.973);
+display: flex;
+align-items: center;
+justify-content: space-e
+
+
 
 }
 
 .box1 {
   height: 200px;
-  background-color: #ffff;
-  text-align: center;
+  background-color: rgb(194, 136, 136);
   border-style: outset 2px;
   margin-bottom: 200px;
   margin-left: 250px;
@@ -96,7 +112,7 @@ li {
 
 .box2 {
   height: 200px;
-  background-color: #ffff;
+  background-color: rgb(34, 11, 11);
   text-align: center;
   border-style: outset 2px black;
   margin-bottom: 200px;
@@ -125,7 +141,7 @@ li {
 
 .pom1 {
   height: 200px;
-  background-color: rgb(8, 30, 44);
+  background-color: rgb(160, 204, 231);
   text-align: center;
 
   margin-left: 250px;
@@ -171,10 +187,11 @@ li {
 
 .profile1 {
   background-color: lime;
-  height: 300px;
+  height: 500px;
   background-color: rgb(8, 30, 44);
   text-align: center;
   margin-left: 250px;
+  padding: 20px;
 }
 
 
@@ -247,7 +264,7 @@ li {
 
 .pricecard2 {
   height: 700px;
-  background-color: rgb(40, 41, 43);
+  background-color: rgb(6, 6, 20);
   text-align: center;
   border-radius: 6px;
   margin-bottom: 200px;
