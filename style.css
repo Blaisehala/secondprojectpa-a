@@ -1,5 +1,5 @@
 * {
-  box-sizing: border-box;
+  box-sizing: content-box;
   padding: 0px;
   margin: 0px;
 
@@ -8,8 +8,8 @@
 body{
   font-family: 'Lobster', cursive;
 font-family: 'Montserrat', sans-serif;
-  display: flex;
-  flex-direction: column;
+  /* display: flex; */
+  /* flex-direction: column; */
 }
 
 /* @media only screen (max: 400px){ */
@@ -428,13 +428,11 @@ photo: spacing 70px;
 /* CONTACT */
 .tear {
   background-color:whitesmoke;
-  height: 600px;
+  height: 700px;
 }
 
-.tear2 img{
   
   
-}
 .tear2{
   background-color: white;
   height: 600px;
@@ -481,4 +479,26 @@ input {
 
 label{
   margin-top: 60px;
+}
+
+.fox{
+  position: relative;
+  left: 300px;
+  
+}
+
+#btn3{
+  background-color: #23A6F0;
+  color: white;
+  width: 300px;
+  height: 50px;
+  font-size: 1em;
+  font-weight: 900;
+  border-style: none;
+  border-radius: 4px;
+  position: relative;
+  left:1300px;
+ top: -30px;
+  
+
 }
