@@ -203,21 +203,26 @@ li {
 }
 
 
-.pricing {
-  background-color: yellow;
-  height: 300px;
-}
-
 
 .aws {
   display: flex;
   justify-content: center;
   text-align: center;
-  background-color: yellow;
+  background-color: whitesmoke;
+ 
+}
+
+#june{
+  font-size: 50px;
+}
+
+.aws p{
+  font-size: 15px;
+
 }
 
 .pricing {
-  background-color: lightslategrey;
+  background-color: whitesmoke;
   height: 1000px;
   display: flex;
   align-items: center;
@@ -227,25 +232,44 @@ li {
 }
 
 .pricecard1 {
-  background-color: lime;
+  background-color: ;
   text-align: center;
   margin-left: 250px;
-  height: 400px;
-  border-style: outset  powderblue;
+  height: 600px;
   border-radius: 6px;
+  margin-bottom: 100px;
+  border-style: groove;
+  border-color: lightskyblue;
+  
+  
 
 }
 
 .pricecard2 {
-  height: 500px;
-  background-color: lightskyblue;
+  height: 700px;
+  background-color: rgb(40, 41, 43);
   text-align: center;
+  border-radius: 6px;
+  margin-bottom: 200px;
+  border-style: groove;
+  border-color: lightskyblue;
+  
 
 }
 
 .pricecard3 {
-  height: 400px;
-  background-color: rgb(167, 196, 174);
+  height: 600px;
   text-align: center;
+  border-radius: 6px;
   margin-right: 250px;
+  margin-bottom: 100px;
+  border-style: groove;
+  border-color: lightskyblue;
+  
+}
+
+
+.black{
+  background-color: rgb(6, 6, 20);
+  height: 700px;
 }
