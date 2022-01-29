@@ -7,6 +7,8 @@
 
 body{
   font-family:Montserrat  ;
+  display: flex;
+  flex-direction: column;
 }
 
 /* @media only screen (max: 400px){ */
@@ -320,7 +322,71 @@ li {
 }
 
 
+/* WORLDMAP */
+
 .black {
   background-color: #252B42;
   height: 700px;
+  
+}
+
+
+
+
+
+
+
+/* CONTACT */
+.tear {
+  background-color: turquoise;
+  height: 600px;
+}
+
+.tear2 img{
+  
+  
+}
+.tear2{
+  background-color: tomato;
+  height: 600px;
+  width: 800px;
+  position: relative;
+  left:500px;
+  bottom: 300px;
+}
+
+#respect{
+  background-color: wheat;
+  height: 600px;
+  width: 500px;
+  position: relative;
+  left:300px;
+  bottom: 604px;
+
+}
+
+#respect h2{
+  text-align: center;
+  padding-top: 15px;
+
+}
+
+form{
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+input {
+  display: inline-block;
+  width: 80%;
+  padding-top: 10px;
+  padding-bottom:20px;
+  margin: 8px 0;
+  box-shadow: border box;
+
+  
+}
+
+label{
+  margin-top: 60px;
 }
