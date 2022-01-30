@@ -1,12 +1,18 @@
+@media only screen and (min-width: 200px) {
+
+  /* max-width: 538px;   */
+
+
 * {
   box-sizing: content-box;
   padding: 0px;
-  margin: 0px;
+  margin: 0px;}
 
-}
+
 html{
   /* position:fixed; */
 }
+
 
 body{
   /* position: fixed; */
@@ -50,12 +56,19 @@ font-family: 'Montserrat', sans-serif;
 }
 
 
-.foot { 
+.tob .foot a { 
   list-style: none;
   display: inline-block;
   text-decoration: none; 
   color: #ffff;
 } 
+
+.foot{
+  display: inline;
+  font-size: 15px;
+}
+
+
 
 nav p {
   color: #ffff;
@@ -352,12 +365,17 @@ nav button{
 
 
 #purple2{
-  background-color: yellow;
+  background-color: rgb(226, 164, 226);
   width: 1300px;
+  height: 70px;
   display: flex;
   justify-content: space-around;
 
 
+}
+
+#purple input{
+  width: 250px;
 }
 
 /* PRICING */
@@ -620,4 +638,6 @@ footer{
 
 footer li {
   list-style: none;
+}
+
 }
