@@ -30,9 +30,14 @@ font-family: 'Montserrat', sans-serif;
 
 
 
-.brand {
+#brand {
+  font-size:30px;
+  color: white;
+  font-weight: bolder;
 
-  /* float: left; */
+  position: relative;
+  left: 200px;
+  top:28px;
 }
 
  
@@ -41,14 +46,42 @@ font-family: 'Montserrat', sans-serif;
    text-align: center; 
    word-spacing: 10px; 
    list-style: none;
+   color: white;
 }
 
-li { 
+
+.foot { 
   list-style: none;
   display: inline-block;
-  text-decoration: none;
-  
+  text-decoration: none; 
+} 
+
+nav p {
+  color: #ffff;
+  position: relative;
+  /* left: 1200px; */
+  /* bottom: 20px; */
+
 }
+
+nav button{
+  color: #ffff;
+  position: relative;
+  left: 1500px;
+  bottom: 40px;
+  background-color: #23A6F0;
+  color: #ffff;
+  border-style: none;
+  font-size:15px;
+  width:200px;
+  height: 40px;
+  border-radius: 5px;
+
+}
+
+
+
+
 
 .En {
   background-color: rquoise;
@@ -86,7 +119,7 @@ li {
 }
 
 #buton1{
-  width: 150px;
+  width: 200px;
   background-color: #23A6F0;
   color: #ffff;
   height: 60px;
@@ -97,7 +130,7 @@ li {
 }
 
 #buton2 {
-  width: 150px;
+  width: 200px;
   background-color:transparent;
   color: #ffff;
   height: 60px;
@@ -106,6 +139,17 @@ li {
   border-color: #F5F5F5;
   font-size: larger;
 
+}
+
+#buton1:hover{
+  background-color: transparent;
+  border-color: #F5F5F5;
+  border-style: groove;
+}
+
+#buton2:hover{
+  background-color: #ffff;
+  color:black;
 }
 
 
@@ -430,12 +474,15 @@ li {
 /* WORLDMAP */
 
 .black {
+  display: flex;
   background-color: #252B42;
   height: 700px;
+  
   
 }
 
 .black img{
+  
   float: right;
   position:relative;
   right:300px;
@@ -450,11 +497,6 @@ li {
   /* left: 250px; */
   /* top:100px; */
 }
-
-
-
-
-
 
 
 /* CONTACT */
@@ -542,6 +584,6 @@ footer{
   
 }
 
-footer li{
+footer li {
   list-style: none;
 }
