@@ -1,4 +1,4 @@
-/* @media screen and (max-width: 760px) { */
+@media screen and (min-width: 760px) {
 
   /* max-width: 538px;   */
 
@@ -73,8 +73,9 @@ font-family: 'Montserrat', sans-serif;
 nav p {
   color: #ffff;
   position: relative;
-  /* left: 1200px; */
-  /* bottom: 20px; */
+  left: 1200px;
+  bottom: 20px;
+  font-size: larger;
 
 }
 
