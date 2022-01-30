@@ -4,23 +4,27 @@
   margin: 0px;
 
 }
+html{
+  /* position:fixed; */
+}
 
 body{
+  /* position: fixed; */
   font-family: 'Lobster', cursive;
 font-family: 'Montserrat', sans-serif;
   /* display: flex; */
   /* flex-direction: column; */
 }
 
-/* @media only screen (max: 400px){ */
 
-
-
-.container {
+.container{
   background-image: url(./Images/herocover3.png);
   background-size: cover;
-  background-color: black;
-
+  background-color : black;
+  display: flex;
+  flex-direction: row;
+  width: 100%px;
+  height: 1000px;
 }
 
 
@@ -28,32 +32,34 @@ font-family: 'Montserrat', sans-serif;
 
 .brand {
 
-  float: left;
+  /* float: left; */
 }
 
-ul {
-  /* text-align: center; */
+ 
+ .tob{
+  padding-left: 600px ;
+   text-align: center; 
+   word-spacing: 10px; 
+   list-style: none;
 }
 
-/* li { */
+li { 
   list-style: none;
   display: inline-block;
   text-decoration: none;
-
-}
-
-.container {
-  width: 100%;
-  height: 1000px;
+  
 }
 
 .En {
+  background-color: rquoise;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: gb(204, 197, 197);
   margin-top: 280px;
-  height: 500px;
+  height: 700px;
+  position: relative;
+  right: 450px;
+  bottom: 70px;
 
 }
 
@@ -65,20 +71,51 @@ ul {
   margin-top: 0px;
   width: 900px;
   height: 500px;
+  word-spacing: 4px;
+  
 
 }
 
 .Ensure h1 {
-  font-size: 70px;
+  font-size: 80px;
+  font-weight: bolder;
 }
 
 .Ensure p {
   font-size: 25px;
 }
 
+#buton1{
+  width: 150px;
+  background-color: #23A6F0;
+  color: #ffff;
+  height: 60px;
+  border-radius: 40px;
+  border-style: none;
+  font-size: larger;
+
+}
+
+#buton2 {
+  width: 150px;
+  background-color:transparent;
+  color: #ffff;
+  height: 60px;
+  border-radius: 40px;
+  border-style: groove;
+  border-color: #F5F5F5;
+  font-size: larger;
+
+}
+
+
+/* End of sectionn one */
+
+
+
 .box {
   height: 300px;
-  background-color: whitesmoke
+  background-color: #F5F5F5;
   ;
 }
 
@@ -99,7 +136,7 @@ ul {
   position: relative;
   left: 800px;
   bottom: 350px;
-  z-index: ;
+
 }
 
 .box3 {
@@ -176,7 +213,7 @@ ul {
 
 /* PROFILE CARDS */
 .industry {
-  background-color: whitesmoke;
+  background-color: #F5F5F5;
   height: 900px;
   display: flex;
   align-items: center;
@@ -189,7 +226,7 @@ ul {
   display: flex;
   justify-content: center;
   text-align: center;
-  background-color: whitesmoke;
+  background-color: rgb(156, 50, 50);
 }
 
 .panam p {
@@ -247,22 +284,17 @@ ul {
 
 /* hool */
 
-.trac {
-photo: spacing 70px;
-
-}
-
-
-
 
 /* PRICING */
-.aws {
-  display: flex;
+
+.aws{
+  display: flex ;
   justify-content: center;
   text-align: center;
-  background-color: whitesmoke;
-
+  background-color: #F5F5F5;
 }
+
+
 
 #june {
   font-size: 50px;
@@ -276,7 +308,7 @@ photo: spacing 70px;
 
 
 .pricing {
-  background-color: whitesmoke;
+  background-color: #F5F5F5;
   height: 1000px;
   display: flex;
   align-items: center;
@@ -286,8 +318,8 @@ photo: spacing 70px;
 }
 
 .pricecard1 {
-  height: 650ppx;
-  background-color: ;
+  
+  
   text-align: center;
   margin-left: 450px;
   height: 600px;
@@ -326,7 +358,7 @@ photo: spacing 70px;
 }
 
 #c1{
-  background-color:;
+  
   padding:20px;
   font-size:2em;
   font-weight: bold;
@@ -342,7 +374,7 @@ photo: spacing 70px;
 }
 
 #c3{
-  background-color: ;
+  
   padding: 20px;
   color: #23A6F0;
   font-weight: bolder;
@@ -352,7 +384,7 @@ photo: spacing 70px;
 #c4{
   padding: 20px;
   margin: 20px;
-  line-height: 3em;
+  line-height: 1.5em;
 
 }
 
@@ -388,7 +420,7 @@ photo: spacing 70px;
   color: white;
   padding: 20px;
   margin: 20px;
-  line-height: 3em;
+  line-height: 1.5em;
 
 }
 
@@ -412,11 +444,11 @@ photo: spacing 70px;
 }
 #moon{
   color: white;
-  background-color:
-  width: 500px;
+  background-color:red;
+  width:300px;
   position:relative;
-  left: 250px;
-  top:100px;
+  /* left: 250px; */
+  /* top:100px; */
 }
 
 
@@ -427,7 +459,7 @@ photo: spacing 70px;
 
 /* CONTACT */
 .tear {
-  background-color:whitesmoke;
+  background-color:#F5F5F5;
   height: 700px;
 }
 
@@ -443,7 +475,6 @@ photo: spacing 70px;
 }
 
 #respect{
-  background-color: what;
   height: 600px;
   width: 500px;
   position: relative;
@@ -464,7 +495,7 @@ form{
 }
 
 input {
-  background-color: whitesmoke;
+  background-color: #F5F5F5;
   display: inline-block;
   width: 80%;
   padding-top: 10px;
@@ -483,21 +514,21 @@ label{
 
 .fox{
   position: relative;
-  left: 300px;
+  /* left: 300px; */
   
 }
 
 #btn3{
   background-color: #23A6F0;
   color: white;
-  width: 300px;
+  width: 280px;
   height: 50px;
-  font-size: 1em;
+  font-size: 1.5em;
   font-weight: 900;
   border-style: none;
   border-radius: 4px;
   position: relative;
-  left:1300px;
+  /* left:1300px; */
  top: -30px;
   
 
