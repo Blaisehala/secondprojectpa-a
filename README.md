@@ -1,5 +1,5 @@
-# secondprojectpa-a
-This is my Second Independent Project Repository at Moringa school 30.01.2022
+# A Company Insuarance Website 
+This is a sample insurance company one page website or landing page which makes it easier for customers to find information. 30.01.2022
 
 
 ##### By Blaise Hala Odhiambo
