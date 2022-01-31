@@ -1,5 +1,5 @@
-# secondprojectpa-a
-This is my Second Independent Project Repository at Moringa school 30.01.2022
+#  Company Insurance Website 
+This is a sample insurance company one page website or landing page which makes it easier for customers to find information. 30.01.2022
 
 
 ##### By Blaise Hala Odhiambo
@@ -15,7 +15,7 @@ This is my Second Independent Project Repository at Moringa school 30.01.2022
 + [Authors Info](#author-Info)
 
 ## Description
-This is my second independent project at Moringa school which is a simple one page  company website that is  used for online presence and information exchange.
+This is a simple one page  company website that is  used for online presence and information exchange.Further, it should be able to assist  users in completing common tasks quickly, such as filing claims, applying for coverage, reviewing and making changes to a policy, paying a bill and much more.
 [Go Back to the top](#description)
 
 ## Installation
